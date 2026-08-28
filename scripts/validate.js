@@ -2,16 +2,16 @@
 // artifacts derived from it. Exits non-zero on any ERROR. WARNINGs do not
 // fail the build but are always printed.
 import { readFileSync, existsSync } from 'node:fs';
-import { readJson, isValidHttpUrl, directBuyMissingFields } from './lib/util.js';
+import {
+  readJson, isValidHttpUrl, metaFeedMissingFields, isValidPriceFormat, isValidCurrencyFormat,
+} from './lib/util.js';
 import {
   PRODUCTS_JSON_PATH, INDEX_HTML_PATH, PRODUCTS_DIR,
   COMMERCE_STATUS, ALLOWED_AVAILABILITY, ALLOWED_CONDITION,
-  DIRECT_BUY_REQUIRED_FIELDS,
+  META_FEED_REQUIRED_FIELDS,
 } from './lib/config.js';
 
 const EXPECTED_COUNT = 184;
-const CURRENCY_RE = /^[A-Z]{3}$/;
-const PRICE_RE = /^\d+(\.\d{1,2})?$/;
 
 export function validateSource({ checkNetwork = false } = {}) {
   const errors = [];
@@ -70,16 +70,10 @@ export function validateSource({ checkNetwork = false } = {}) {
 
     // price / currency format, only if present (null is always valid — unset)
     if (p.price !== null && p.price !== undefined) {
-      if (typeof p.price === 'number') {
-        if (!(p.price > 0)) errors.push(`Invalid price value ${p.price} ${where}`);
-      } else if (!PRICE_RE.test(String(p.price))) {
-        errors.push(`Invalid price format "${p.price}" ${where}`);
-      }
-      if (!p.currency || !CURRENCY_RE.test(p.currency)) {
-        errors.push(`price is set but currency is missing/invalid ${where}`);
-      }
+      if (!isValidPriceFormat(p.price)) errors.push(`Invalid price format "${p.price}" ${where}`);
+      if (!isValidCurrencyFormat(p.currency)) errors.push(`price is set but currency is missing/invalid ${where}`);
     }
-    if (p.currency !== null && p.currency !== undefined && !CURRENCY_RE.test(p.currency)) {
+    if (p.currency !== null && p.currency !== undefined && !isValidCurrencyFormat(p.currency)) {
       errors.push(`Invalid currency format "${p.currency}" (expected 3-letter ISO 4217) ${where}`);
     }
 
@@ -95,10 +89,10 @@ export function validateSource({ checkNetwork = false } = {}) {
     if (!Object.values(COMMERCE_STATUS).includes(p.commerce_status)) {
       errors.push(`Invalid commerce_status "${p.commerce_status}" ${where}`);
     }
-    if (p.commerce_status === COMMERCE_STATUS.DIRECT_BUY_READY) {
-      const missing = directBuyMissingFields(p, DIRECT_BUY_REQUIRED_FIELDS);
+    if (p.commerce_status === COMMERCE_STATUS.META_FEED_READY) {
+      const missing = metaFeedMissingFields(p, META_FEED_REQUIRED_FIELDS);
       if (missing.length) {
-        errors.push(`Marked DIRECT_BUY_READY but missing required field(s) [${missing.join(', ')}] ${where}`);
+        errors.push(`Marked META_FEED_READY but missing required field(s) [${missing.join(', ')}] ${where}`);
       }
     }
 

@@ -1,13 +1,27 @@
 // Generates one static page per product at products/<slug>/index.html from
 // data/products.json. Only fields with a real (non-null) value are rendered —
-// price, dimensions, availability, and condition are omitted entirely rather
-// than shown as placeholders, since none of that data exists yet.
+// dimensions are omitted entirely when unknown, never shown as a placeholder.
 //
-// These pages are generated into the working tree only. They are NOT linked
-// from the main catalogue page and are NOT deployed as part of this phase.
+// Price/availability/condition/CTA are commerce_status-aware:
+//   META_FEED_READY -> real INR price + availability + condition shown as
+//                       facts; CTA unchanged ("Enquire on WhatsApp").
+//   ENQUIRY_ONLY     -> no price shown (none exists); a plain note explains
+//                       it's made-to-order; CTA unchanged.
+//   SOLD_ARCHIVE     -> a "Status: Sold" fact instead of price; CTA relabeled
+//                       "Enquire about similar work" so the page never reads
+//                       as an offer to buy this specific piece — but still
+//                       links this product's own WhatsApp URL, so no link is
+//                       lost or changed from what's stored in products.json.
+//
+// These pages are generated into the working tree only, ready to deploy
+// alongside index.html — deployment itself is a separate explicit step.
 import { existsSync, mkdirSync, writeFileSync, readdirSync, rmSync } from 'node:fs';
 import { escapeHtml, readJson, effectiveDescription } from './lib/util.js';
-import { PRODUCTS_JSON_PATH, PRODUCTS_DIR, SITE_BASE_URL, BRAND } from './lib/config.js';
+import { PRODUCTS_JSON_PATH, PRODUCTS_DIR, SITE_BASE_URL, BRAND, COMMERCE_STATUS } from './lib/config.js';
+
+function formatPriceINR(price) {
+  return `₹${Number(price).toLocaleString('en-IN')}`;
+}
 
 function renderProductPage(p) {
   const title = escapeHtml(p.title);
@@ -20,6 +34,21 @@ function renderProductPage(p) {
   factRows.push(['Category', category]);
   if (p.material) factRows.push(['Material', escapeHtml(p.material)]);
   if (p.dimensions) factRows.push(['Dimensions', escapeHtml(p.dimensions)]);
+
+  let ctaLabel = 'Enquire on WhatsApp';
+  let noteHtml = '';
+  if (p.commerce_status === COMMERCE_STATUS.META_FEED_READY) {
+    factRows.push(['Price', formatPriceINR(p.price)]);
+    if (p.availability) factRows.push(['Availability', escapeHtml(p.availability)]);
+    if (p.condition) factRows.push(['Condition', escapeHtml(p.condition)]);
+  } else if (p.commerce_status === COMMERCE_STATUS.ENQUIRY_ONLY) {
+    noteHtml = '<p class="note">Made to order — price on enquiry.</p>';
+  } else if (p.commerce_status === COMMERCE_STATUS.SOLD_ARCHIVE) {
+    factRows.push(['Status', 'Sold — one of a kind, no longer available']);
+    ctaLabel = 'Enquire about similar work';
+  } else {
+    noteHtml = '<p class="note">Availability and price on request.</p>';
+  }
 
   const ldJson = {
     '@context': 'https://schema.org',
@@ -98,8 +127,8 @@ function renderProductPage(p) {
   <dl class="facts">
 ${factRows.map(([k, v]) => `    <div class="fact"><dt>${k}</dt><dd>${v}</dd></div>`).join('\n')}
   </dl>
-  <a class="cta" href="${p.whatsapp_url}" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> Enquire on WhatsApp</a>
-  <p class="note">Availability and price on request.</p>
+  <a class="cta" href="${p.whatsapp_url}" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> ${ctaLabel}</a>
+  ${noteHtml}
 </div></main>
 </body>
 </html>

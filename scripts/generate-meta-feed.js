@@ -1,15 +1,15 @@
 // Generates:
-//   meta/meta-catalog.csv        — ONLY products passing DIRECT_BUY_READY validation
+//   meta/meta-catalog.csv        — ONLY products passing META_FEED_READY validation
 //   reports/meta-commerce-audit.csv — all products, with per-field gap status
 //
 // Never emits placeholder values to satisfy a required column: a product
-// that is not DIRECT_BUY_READY simply does not get a row in meta-catalog.csv.
+// that is not META_FEED_READY simply does not get a row in meta-catalog.csv.
 import { mkdirSync } from 'node:fs';
 import { writeFileSync } from 'node:fs';
-import { readJson, toCsv, effectiveDescription, directBuyMissingFields } from './lib/util.js';
+import { readJson, toCsv, effectiveDescription, metaFeedMissingFields } from './lib/util.js';
 import {
   PRODUCTS_JSON_PATH, META_FEED_PATH, AUDIT_REPORT_PATH, SITE_BASE_URL, BRAND,
-  COMMERCE_STATUS, DIRECT_BUY_REQUIRED_FIELDS, META_CSV_HEADERS, AUDIT_CSV_HEADERS,
+  COMMERCE_STATUS, META_FEED_REQUIRED_FIELDS, META_CSV_HEADERS, AUDIT_CSV_HEADERS,
 } from './lib/config.js';
 
 function productUrl(p) {
@@ -18,24 +18,24 @@ function productUrl(p) {
 
 function auditRow(p) {
   const missing = [];
-  if (p.price === null || p.price === undefined) missing.push('price');
-  if (p.availability === null || p.availability === undefined) missing.push('availability');
-  if (p.condition === null || p.condition === undefined) missing.push('condition');
-
-  const { source: descriptionSource } = effectiveDescription(p);
+  if (p.price === null || p.price === undefined || p.price === '') missing.push('price');
+  if (p.currency === null || p.currency === undefined || p.currency === '') missing.push('currency');
+  if (p.availability === null || p.availability === undefined || p.availability === '') missing.push('availability');
+  if (p.condition === null || p.condition === undefined || p.condition === '') missing.push('condition');
 
   return {
     id: p.id,
     title: p.title,
-    slug: p.slug,
+    category: p.category,
+    material: p.material ?? '',
+    price: p.price ?? '',
+    currency: p.currency ?? '',
+    availability: p.availability ?? '',
+    condition: p.condition ?? '',
     commerce_status: p.commerce_status,
-    price_status: p.price !== null && p.price !== undefined ? 'present' : 'missing',
-    availability_status: p.availability !== null && p.availability !== undefined ? 'present' : 'missing',
-    condition_status: p.condition !== null && p.condition !== undefined ? 'present' : 'missing',
-    description_status: descriptionSource,
+    missing_fields: missing.join(';'),
     product_url: productUrl(p),
     image_status: p.hero_image ? 'present' : 'missing',
-    missing_fields: missing.join(';'),
   };
 }
 
@@ -62,14 +62,14 @@ function main() {
   mkdirSync('meta', { recursive: true });
   mkdirSync('reports', { recursive: true });
 
-  const directBuyReady = [];
+  const metaFeedReady = [];
   const rejectedButMarked = [];
 
   for (const p of products) {
-    if (p.commerce_status === COMMERCE_STATUS.DIRECT_BUY_READY) {
-      const missing = directBuyMissingFields(p, DIRECT_BUY_REQUIRED_FIELDS);
+    if (p.commerce_status === COMMERCE_STATUS.META_FEED_READY) {
+      const missing = metaFeedMissingFields(p, META_FEED_REQUIRED_FIELDS);
       if (missing.length === 0) {
-        directBuyReady.push(p);
+        metaFeedReady.push(p);
       } else {
         rejectedButMarked.push({ product: p, missing });
       }
@@ -77,15 +77,15 @@ function main() {
   }
 
   if (rejectedButMarked.length > 0) {
-    console.error('The following products are marked DIRECT_BUY_READY but fail validation — excluded from meta-catalog.csv:');
+    console.error('The following products are marked META_FEED_READY but fail validation — excluded from meta-catalog.csv:');
     for (const { product, missing } of rejectedButMarked) {
       console.error(`  [${product.slug}] missing: ${missing.join(', ')}`);
     }
   }
 
-  const metaRows = directBuyReady.map(metaRow);
+  const metaRows = metaFeedReady.map(metaRow);
   writeFileSync(META_FEED_PATH, toCsv(metaRows, META_CSV_HEADERS), 'utf8');
-  console.log(`${META_FEED_PATH}: ${metaRows.length} product row(s) (DIRECT_BUY_READY only).`);
+  console.log(`${META_FEED_PATH}: ${metaRows.length} product row(s) (META_FEED_READY only).`);
 
   const auditRows = products.map(auditRow);
   writeFileSync(AUDIT_REPORT_PATH, toCsv(auditRows, AUDIT_CSV_HEADERS), 'utf8');
@@ -93,7 +93,8 @@ function main() {
 
   const missingCommerceCount = products.filter((p) => p.commerce_status === COMMERCE_STATUS.MISSING_COMMERCE_DATA).length;
   const enquiryOnlyCount = products.filter((p) => p.commerce_status === COMMERCE_STATUS.ENQUIRY_ONLY).length;
-  console.log(`\nStatus breakdown: DIRECT_BUY_READY=${directBuyReady.length}, ENQUIRY_ONLY=${enquiryOnlyCount}, MISSING_COMMERCE_DATA=${missingCommerceCount}`);
+  const soldArchiveCount = products.filter((p) => p.commerce_status === COMMERCE_STATUS.SOLD_ARCHIVE).length;
+  console.log(`\nStatus breakdown: META_FEED_READY=${metaFeedReady.length}, ENQUIRY_ONLY=${enquiryOnlyCount}, SOLD_ARCHIVE=${soldArchiveCount}, MISSING_COMMERCE_DATA=${missingCommerceCount}`);
 
   if (rejectedButMarked.length > 0) {
     process.exitCode = 1;

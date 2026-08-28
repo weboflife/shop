@@ -4,17 +4,41 @@
 // card markup produced here is byte-identical in structure to the original
 // hand-authored cards, just templated instead of duplicated 184 times.
 //
-// Card display text is intentionally NOT driven by commerce fields yet
-// (price always renders "Price on request", material falls back to
-// "Details on request") so the live site's appearance and behaviour do not
-// change in this phase, regardless of what gets filled into products.json later.
+// Card display now reflects commerce_status — the one substantive visual
+// change this pipeline makes to the live grid:
+//   META_FEED_READY    -> real INR price shown, "Enquire" (unchanged CTA)
+//   ENQUIRY_ONLY        -> "Customisable" (no price fabricated), "Enquire"
+//   SOLD_ARCHIVE        -> "Sold" (styled muted), "Ask about similar" CTA
+//   anything else        -> original "Price on request" / "Enquire" (safety
+//                           net for a future product added without a status)
+// Every card's WhatsApp link is left completely untouched regardless of
+// status — differentiation is text-only, so link validation (WhatsApp URLs
+// present and unchanged) still holds for all 184 products, and the site's
+// WhatsApp-enquiry behaviour is unmodified as a mechanism.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { escapeHtml, buildSearchIndex, readJson } from './lib/util.js';
-import { PRODUCTS_JSON_PATH, INDEX_HTML_PATH } from './lib/config.js';
+import { PRODUCTS_JSON_PATH, INDEX_HTML_PATH, COMMERCE_STATUS } from './lib/config.js';
 import { validateIndexHtml } from './validate.js';
 
 const GRID_START_MARKER = '<main class="grid" id="grid">';
 const GRID_END_MARKER = '<p class="empty" id="empty" style="display:none">No pieces match that search.</p>\n  </main>';
+
+function formatPriceINR(price) {
+  return `₹${Number(price).toLocaleString('en-IN')}`;
+}
+
+function priceAndCta(p) {
+  if (p.commerce_status === COMMERCE_STATUS.META_FEED_READY) {
+    return { priceHtml: `<span class="price">${formatPriceINR(p.price)}</span>`, ctaLabel: 'Enquire' };
+  }
+  if (p.commerce_status === COMMERCE_STATUS.ENQUIRY_ONLY) {
+    return { priceHtml: `<span class="price">Customisable</span>`, ctaLabel: 'Enquire' };
+  }
+  if (p.commerce_status === COMMERCE_STATUS.SOLD_ARCHIVE) {
+    return { priceHtml: `<span class="price sold">Sold</span>`, ctaLabel: 'Ask about similar' };
+  }
+  return { priceHtml: `<span class="price">Price on request</span>`, ctaLabel: 'Enquire' };
+}
 
 function renderCard(p) {
   const cat = escapeHtml(p.category);
@@ -23,6 +47,7 @@ function renderCard(p) {
   const searchIndex = escapeHtml(buildSearchIndex(p.title, p.material, p.category));
   const eyebrow = escapeHtml(p.category.toUpperCase());
   const wa = p.whatsapp_url; // already a valid, pre-escaped URL from source; used verbatim
+  const { priceHtml, ctaLabel } = priceAndCta(p);
 
   return `      <article class="card" data-cat="${cat}" data-title="${searchIndex}">
         <a class="card-media" href="${wa}" target="_blank" rel="noopener">
@@ -34,8 +59,8 @@ function renderCard(p) {
           <h3>${title}</h3>
           <p class="mat">${matText}</p>
           <div class="card-foot">
-            <span class="price">Price on request</span>
-            <a class="buy" href="${wa}" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> Enquire</a>
+            ${priceHtml}
+            <a class="buy" href="${wa}" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> ${ctaLabel}</a>
           </div>
         </div>
       </article>`;

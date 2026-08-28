@@ -34,6 +34,22 @@ export function buildSearchIndex(title, material, category) {
   return `${title} ${matText} ${category}`.toLowerCase();
 }
 
+// Strips leading punctuation/quotes before a title is used as a sort key.
+// A few titles open with a curly quote (e.g. "“Ripple effect” seater"), and
+// plain localeCompare gives that character enough weight to sort it out of
+// alphabetical order from a human's point of view.
+export function titleSortKey(title) {
+  return title.replace(/^[^\p{L}\p{N}]+/u, '');
+}
+
+export function sortByCategoryThenTitle(products) {
+  return [...products].sort((a, b) => {
+    const catCmp = a.category.localeCompare(b.category);
+    if (catCmp !== 0) return catCmp;
+    return titleSortKey(a.title).localeCompare(titleSortKey(b.title));
+  });
+}
+
 export function escapeHtml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -69,6 +85,54 @@ export function toCsv(rows, headers) {
   return lines.join('\n') + '\n';
 }
 
+const PRICE_FORMAT_RE = /^\d+(\.\d{1,2})?$/;
+const CURRENCY_FORMAT_RE = /^[A-Z]{3}$/;
+
+export function isValidPriceFormat(value) {
+  if (value === null || value === undefined || value === '') return false;
+  if (typeof value === 'number') return Number.isFinite(value) && value > 0;
+  return PRICE_FORMAT_RE.test(String(value)) && Number(value) > 0;
+}
+
+export function isValidCurrencyFormat(value) {
+  return typeof value === 'string' && CURRENCY_FORMAT_RE.test(value);
+}
+
+// Minimal RFC4180 CSV parser (quoted fields, "" escapes, CRLF or LF).
+// Matches the shape produced by toCsv(), and tolerant of a spreadsheet
+// round-trip (Excel/Sheets export uses the same conventions).
+export function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let field = '';
+  let inQuotes = false;
+  let i = 0;
+  const len = text.length;
+  while (i < len) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i += 2; continue; }
+        inQuotes = false; i += 1; continue;
+      }
+      field += c; i += 1; continue;
+    }
+    if (c === '"') { inQuotes = true; i += 1; continue; }
+    if (c === ',') { row.push(field); field = ''; i += 1; continue; }
+    if (c === '\r') { i += 1; continue; }
+    if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; i += 1; continue; }
+    field += c; i += 1;
+  }
+  if (field.length > 0 || row.length > 0) { row.push(field); rows.push(row); }
+  if (rows.length === 0) return [];
+
+  const headers = rows[0];
+  return rows
+    .slice(1)
+    .filter((r) => !(r.length === 1 && r[0] === ''))
+    .map((r) => Object.fromEntries(headers.map((h, idx) => [h, r[idx] !== undefined ? r[idx] : ''])));
+}
+
 export function readJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'));
 }
@@ -80,7 +144,7 @@ export function writeJson(path, data) {
 // Fields required for a product to legitimately appear in meta-catalog.csv.
 // `link` and `description` are computed, not stored on the record, so they
 // are checked specially rather than via a plain p[field] lookup.
-export function directBuyMissingFields(p, requiredFields) {
+export function metaFeedMissingFields(p, requiredFields) {
   const { text: description } = effectiveDescription(p);
   return requiredFields.filter((f) => {
     if (f === 'description') return !description;

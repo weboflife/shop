@@ -28,11 +28,65 @@ Individual steps (also available as `npm run <name>`):
 
 ## Updating an existing product
 
-1. Open `data/products.json`, find the product by `slug`.
-2. Edit whichever fields you have real values for (see field reference below).
-3. Run `node scripts/build.js`.
-4. Check `reports/meta-commerce-audit.csv` for that product's row — confirm
-   `missing_fields` reflects what you expect.
+Two ways to do this — pick whichever fits how you're working:
+
+**Directly:** open `data/products.json`, find the product by `slug`, edit
+whichever fields you have real values for (see field reference below), run
+`node scripts/build.js`, then check `reports/meta-commerce-audit.csv` for
+that product's row to confirm `missing_fields` reflects what you expect.
+
+**Via the owner-input spreadsheet:** see below — better for filling in
+price/availability/condition across many products at once.
+
+## Bulk commerce data via spreadsheet
+
+For filling in price/currency/availability/condition across many products
+(rather than hand-editing JSON), use the CSV round-trip:
+
+1. `node scripts/generate-owner-input.js` — writes
+   `reports/commerce-owner-input.csv`, one row per product, with the known
+   facts (title, category, material, image, product URL, current/fallback
+   description) plus blank `price`/`currency`/`availability`/`condition`
+   columns and a free-text `owner_notes` column.
+2. Open it in a spreadsheet, fill in whatever you have confirmed. Leave a
+   cell blank to leave that field untouched — you can fill the sheet in
+   incrementally over several passes, you don't have to complete it in one
+   sitting.
+3. `node scripts/import-commerce-data.js` — validates every row first (all
+   formats, all IDs); if anything is wrong, **nothing is written** and you
+   get an exact list of what to fix. If everything passes, it writes the
+   changes into `data/products.json`.
+4. Run `node scripts/build.js` to regenerate everything downstream.
+
+Add `--dry-run` to step 3 to preview what would change without writing
+anything. Add `--file=<path>` to import from a different CSV (e.g. a working
+copy while iterating).
+
+**What the importer will and won't touch:** only `price`, `currency`,
+`availability`, `condition`, `commerce_status`, and `owner_notes` are ever
+written back to `data/products.json`. The `title`/`category`/`material`
+columns in the sheet are reference-only — if you edit them there, the
+importer ignores the edit and prints a warning naming the mismatch; it never
+overwrites source-of-truth product facts from the commerce sheet.
+
+**`commerce_status` in the sheet is mostly hands-off.** Leave it as
+`MISSING_COMMERCE_DATA`, or write `ENQUIRY_ONLY` / `SOLD_ARCHIVE` to
+explicitly declare a piece as WhatsApp-enquiry-only or already-sold — those
+are the two statuses you set by hand. `META_FEED_READY` is never taken on
+faith from the sheet: the importer recomputes it from whether
+price/currency/availability/condition are all actually present and valid,
+every time. If you type `META_FEED_READY` into the sheet for a product
+that isn't actually complete, the importer downgrades it back to
+`MISSING_COMMERCE_DATA` and prints a warning — it will not silently trust
+the label.
+
+**Regenerating the sheet is destructive to unimported edits.** Running
+`node scripts/generate-owner-input.js` again overwrites
+`reports/commerce-owner-input.csv` from the current `data/products.json` —
+if you've typed data into it that hasn't been imported yet, that data is
+lost. It's intentionally not part of `node scripts/build.js` for this
+reason; only regenerate it when you actually want a fresh sheet (e.g. after
+adding new products).
 
 ## Adding a new product
 
@@ -77,15 +131,22 @@ assumes a product is in stock just because it's listed, and never assumes
 
 ## Commerce status
 
-Set on the product record: `MISSING_COMMERCE_DATA`, `ENQUIRY_ONLY`, or
-`DIRECT_BUY_READY`.
+Set on the product record: `MISSING_COMMERCE_DATA`, `ENQUIRY_ONLY`,
+`SOLD_ARCHIVE`, or `META_FEED_READY`.
 
 - **MISSING_COMMERCE_DATA** — default for every product until you decide
   otherwise. Never appears in `meta/meta-catalog.csv`.
 - **ENQUIRY_ONLY** — set this explicitly when a piece is intentionally
-  WhatsApp-enquiry-only with no plan to sell it directly through Meta. Still
-  excluded from `meta/meta-catalog.csv` (no checkout price).
-- **DIRECT_BUY_READY** — set this once `price`, `currency`, `availability`,
+  WhatsApp-enquiry-only with no plan to sell it directly through Meta (e.g.
+  made-to-order/customisable pieces with no fixed price). Still excluded
+  from `meta/meta-catalog.csv` (no checkout price).
+- **SOLD_ARCHIVE** — set this explicitly for a one-of-a-kind piece that has
+  already sold. The catalogue record, images, description, and website page
+  are all preserved — nothing gets deleted — it's simply excluded from the
+  Meta feed since it can't be purchased. Like `ENQUIRY_ONLY`, this is an
+  explicit owner decision the importer stores as-is, never derived from
+  field completeness.
+- **META_FEED_READY** — set this once `price`, `currency`, `availability`,
   and `condition` are all filled in. The build will **refuse to include the
   product in `meta/meta-catalog.csv`** if any required field is still
   missing (see validation, below) — it doesn't silently drop it, it fails
@@ -97,9 +158,11 @@ If `description` is `null`, the build auto-generates a restrained factual
 fallback from `title` + `material` + `category` (never invented details —
 see `scripts/lib/util.js:effectiveDescription`). To use your own copy, just
 set `description` on the record; it always takes priority over the fallback.
-`reports/meta-commerce-audit.csv` shows `description_status` as `authored`,
-`fallback_material`, or `fallback_category` so you can see at a glance which
-products still only have the generated version.
+`reports/commerce-owner-input.csv`'s `current_description` column shows
+exactly what would currently be used for each product, so you can see at a
+glance which ones still only have the generated version — it's a preview,
+not a stored field, and re-generating the sheet always reflects the latest
+description in `data/products.json`.
 
 ## Regenerating the shop
 
@@ -121,7 +184,7 @@ decision.
 
 `node scripts/generate-meta-feed.js` writes:
 
-- `meta/meta-catalog.csv` — only `DIRECT_BUY_READY` products that pass full
+- `meta/meta-catalog.csv` — only `META_FEED_READY` products that pass full
   validation. Never contains placeholder values to force a row to "look"
   complete.
 - `reports/meta-commerce-audit.csv` — all products, with a `missing_fields`
@@ -137,9 +200,33 @@ node scripts/validate.js --output               # + check generated files match 
 
 Checks include: exact product count, duplicate ids/slugs/titles, malformed
 URLs, missing/unreachable hero images, invalid price/currency/availability/
-condition formats, products marked `DIRECT_BUY_READY` without all required
+condition formats, products marked `META_FEED_READY` without all required
 fields, product-count mismatches between source and generated output, and
 WhatsApp links being lost or changed during generation.
+
+## Syncing to Meta
+
+`node scripts/sync-to-meta.js` reads `meta/meta-catalog.csv`, cross-checks
+every row against `data/products.json` (never trusting the CSV alone), and
+builds the Meta Catalog Batch API payload for the `META_FEED_READY`
+products. **By default it is a fully offline dry run** — it prints the
+payload it would send and makes no network call at all.
+
+```
+node scripts/sync-to-meta.js                          # dry run, all META_FEED_READY products
+node scripts/sync-to-meta.js --product=<id>            # dry run, one product only — for a pilot test
+node scripts/sync-to-meta.js --limit=5                 # dry run, first 5 only
+node scripts/sync-to-meta.js --catalog-id=<id>         # override the target (default: the confirmed TEST catalog)
+```
+
+`--execute` exists as a flag but reaches a branch that currently refuses to
+run — the live network-send call is intentionally not implemented yet, so
+this script cannot mutate Meta no matter how it's invoked, until that's
+built out and explicitly approved. There is no delete capability anywhere
+in this script.
+
+`META_CATALOG_ACCESS_TOKEN` is read from `.env` only, held in memory, and
+never printed, logged, or included in any output this script produces.
 
 ## Not set up yet (by design)
 

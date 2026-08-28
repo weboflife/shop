@@ -10,6 +10,17 @@
     "generate:pages": "node scripts/generate-product-pages.js",
     "generate:feed": "node scripts/generate-meta-feed.js",
     "validate:output": "node scripts/validate.js --output",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "owner-sheet": "node scripts/generate-owner-input.js",
+    "owner-review": "node scripts/generate-owner-review.js",
+    "owner-workbook": "node scripts/generate-pricing-workbook.js",
+    "visual-match-workbook": "node scripts/generate-visual-match-workbook.js",
+    "external-price-audit": "node scripts/generate-external-price-audit.js",
+    "import-commerce": "node scripts/import-commerce-data.js",
+    "sync:meta": "node scripts/sync-to-meta.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "sharp": "^0.35.3"
   }
 }

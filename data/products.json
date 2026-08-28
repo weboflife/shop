@@ -10,14 +10,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 46000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/attraversiamo.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CAttraversiamo%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "biomorphic-v1",
@@ -27,14 +27,14 @@
       "material": "Black granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6700,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/biomorphic-v1.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBiomorphic%20V1%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "biomorphic-v2",
@@ -44,14 +44,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 4600,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/biomorphic-v2.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBiomorphic%20V2%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "birth-and-death-of-a-star",
@@ -61,14 +61,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 67000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/birth-and-death-of-a-star.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBirth%20and%20Death%20of%20a%20Star%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "black-amoeba",
@@ -78,14 +78,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 36000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/black-amoeba.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBlack%20Amoeba%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "bloom",
@@ -102,7 +102,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/bloom.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBloom%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "bottlenose",
@@ -112,14 +112,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 23000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/bottlenose.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBottlenose%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "celestial-dance",
@@ -129,14 +129,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 4000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/celestial-dance.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCelestial%20Dance%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "celestial-nexus",
@@ -153,7 +153,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/ufo.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCelestial%20Nexus%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "chatterbox",
@@ -170,7 +170,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/chatterbox.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CChatterbox%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "clover",
@@ -180,14 +180,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 32000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/clover.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CClover%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "coquina-ganesha",
@@ -204,7 +204,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/coquina-ganesha.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCoquina%20Ganesha%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "crafted-curves",
@@ -221,7 +221,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/crafted-curves.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCrafted%20Curves%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "dichotomy",
@@ -238,7 +238,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/dichotomy.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CDichotomy%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "duality",
@@ -255,7 +255,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/duality.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CDuality%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "easter",
@@ -265,14 +265,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 14000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/easter.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CEaster%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "ekadantha",
@@ -289,7 +289,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/ekadantha.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CEkadantha%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "embrace",
@@ -299,14 +299,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 24000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/embrace.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CEmbrace%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "emulate-nature",
@@ -316,14 +316,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 72000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/emulate-nature.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CEmulate%2C%20Nature%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "eternal-flux",
@@ -340,7 +340,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/eternal-flux.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CEternal%20Flux%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "feminine-grace",
@@ -350,14 +350,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 68000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/feminine-grace.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CFeminine%20Grace%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "fertility",
@@ -374,7 +374,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/fertility.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CFertility%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "flawsome",
@@ -391,7 +391,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/flawsome.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CFlawsome%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "heart-of-gaia",
@@ -401,14 +401,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 34000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/heart-of-gaia.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CHeart%20of%20Gaia%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "holding-high",
@@ -418,14 +418,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 4000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/holding-high.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CHolding%20High%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "in-infinitum",
@@ -435,14 +435,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 47000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/in-infinitum.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CIn%20Infinitum%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "interconnected",
@@ -459,7 +459,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/interconnected.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CInterconnected%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "intimacy",
@@ -469,14 +469,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 200000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/intimacy.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CIntimacy%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "invoking-a-supreme-power",
@@ -486,14 +486,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 34000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/invoking-a-supreme-power.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CInvoking%20a%20Supreme%20Power%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "khnum-the-fertile-god",
@@ -503,14 +503,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 68000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/khnum-the-fertile-god.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CKhnum%2C%20The%20Fertile%20God%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "leap-of-faith",
@@ -527,7 +527,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/leaf-of-faith.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CLeap%20of%20Faith%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "magicians-cloak",
@@ -544,7 +544,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/magicians-cloak.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CMagician%E2%80%99s%20Cloak%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "man-sprouts-from-his-guts",
@@ -554,14 +554,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 38000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/man-sprouts-from-his-gut.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CMan%20Sprouts%20from%20his%20Guts%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "mwah",
@@ -578,7 +578,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/mwah.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CMwah%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "ogamagi",
@@ -595,7 +595,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/ogamagi.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9COgamagi%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "ooze",
@@ -605,14 +605,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 42000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/ooze.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9COoze%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "poised",
@@ -629,7 +629,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/poised.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CPoised%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "ripple-in-the-cosmos",
@@ -639,14 +639,14 @@
       "material": "Mango Wood",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 18000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/ripple-in-the-cosmos.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CRipple%20in%20the%20Cosmos%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "rosewood-neck",
@@ -663,7 +663,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/put-your-priced-possession-on-that-neck.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CRosewood%20Neck%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "salvation",
@@ -680,7 +680,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/salvation.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSalvation%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "samsara",
@@ -697,7 +697,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/samsara.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSamsara%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "seven-league-boots",
@@ -714,7 +714,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/seven-league-boots.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSeven%20League%20Boots%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "space-monster",
@@ -731,7 +731,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/space-monster.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSpace%20Monster%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "spacenesh",
@@ -741,14 +741,14 @@
       "material": "Neem wood",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 630000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/spacenesh.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSpacenesh%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "standing-tall-against-all-odds",
@@ -758,14 +758,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 76000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/standing-tall-against-all-odds.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CStanding%20Tall%20Against%20All%20Odds%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "thought-provoking",
@@ -775,14 +775,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 4000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/thought-provoking.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CThought%20Provoking%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "tiki-head",
@@ -799,7 +799,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/tikihead.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CTiki%20Head%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "transformation",
@@ -816,7 +816,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/transformation.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CTransformation%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "trust",
@@ -833,7 +833,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/trust.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CTrust%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "twisted",
@@ -850,7 +850,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/twisted.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CTwisted%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "untitled-0424",
@@ -860,14 +860,14 @@
       "material": "Coquina rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 4000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/untitled-0424.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CUNTITLED%200424%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "untitled-bs0424",
@@ -877,14 +877,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 4000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/untitled-bs0424.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CUntitled%20BS0424%E2%80%9D%20%28One-of-a-Kind%20Sculptures%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "balancing-stones",
@@ -901,7 +901,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/balancing-stones-2.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBalancing%20Stones%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "black-bench",
@@ -911,14 +911,14 @@
       "material": "Charred Teak wood",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 42000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/blackbench-2.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBlack%20Bench%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "blackbig-chair",
@@ -928,14 +928,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 46000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/blackbig-chair.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBlackbig%20Chair%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "chariot",
@@ -952,7 +952,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/chariot.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CChariot%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "coquina-rock-bench-series",
@@ -962,14 +962,14 @@
       "material": "Coquina stone, Coquina rock, Golden Ash limestone",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 260000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/coquina-rock-bench.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCoquina%20Rock%20Bench%20Series%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "cosmic-turtle",
@@ -986,7 +986,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/cosmic-turtle.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCosmic%20Turtle%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "crawling-on-earth",
@@ -1003,7 +1003,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/crawling-on-earth.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCrawling%20on%20earth%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "honey-comb-chair",
@@ -1020,7 +1020,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/honey-comb-chair.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CHoney%20Comb%20Chair%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "honeycomb-seater",
@@ -1037,7 +1037,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/honeycomb-seater.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CHoneycomb%20Seater%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "jnana-mudra",
@@ -1047,14 +1047,14 @@
       "material": "Neem wood",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 430000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/gnana-mudra.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CJnana%20Mudra%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "sculpted-backrest-seater",
@@ -1071,7 +1071,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/sculpted-backrest-seater.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSculpted%20Backrest%20Seater%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "sculpted-simplicity",
@@ -1088,7 +1088,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/sculpted-simplicity.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSculpted%20Simplicity%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "seater",
@@ -1105,7 +1105,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/seater.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSeater%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "simhasanam-02",
@@ -1122,7 +1122,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/simhasanam02.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSimhasanam%2002%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "spindle-bench",
@@ -1139,7 +1139,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/spindle-bench.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSpindle%20Bench%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "the-bent-chair",
@@ -1149,14 +1149,14 @@
       "material": "Charred Mango Wood",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 46000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/the-bent-chair.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CThe%20Bent%20Chair%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "trio-stool",
@@ -1173,7 +1173,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/trio-stool.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CTrio%20stool%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "untitled-ch2024",
@@ -1190,7 +1190,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/untitled-ch2024.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CUntitled%20CH2024%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "verdant-flow-bench",
@@ -1207,7 +1207,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/verdant-flow-bench.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVerdant%20Flow%20Bench%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "ripple-effect-seater",
@@ -1224,7 +1224,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/ripple-effect-seater.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9C%E2%80%9CRipple%20effect%E2%80%9D%20seater%E2%80%9D%20%28Sculptural%20Seating%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "baga-side-table-series",
@@ -1241,7 +1241,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/baga-side-table-series.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBaGa%20Side%20Table%20Series%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "biomorphic-center-table-001",
@@ -1258,7 +1258,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/biomorphic-center-table-1.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBiomorphic%20center%20table%20001%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "biomorphic-side-table-021023",
@@ -1275,7 +1275,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/biomorphic-side-table-021023.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBiomorphic%20Side%20Table%20021023%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "bivalve-side-table",
@@ -1292,7 +1292,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/the-bivalve-side-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBivalve%20Side%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "coquina-side-tables",
@@ -1309,7 +1309,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/coquina-side-tables.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCoquina%20Side%20Tables%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "cross-legged-coffee-table",
@@ -1326,7 +1326,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/cross-legged-coffee-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCross%20Legged%20Coffee%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "egg-ceptional-centre-table",
@@ -1343,7 +1343,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/egg-ceptional-centre-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CEgg-ceptional%20Centre%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "ekadanta-console-table",
@@ -1360,7 +1360,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/ekadanta-console-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CEkadanta%20Console%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "gaia-reflection-center-table",
@@ -1377,7 +1377,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/gaia-reflection-center-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CGaia%20Reflection%20Center%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "mammoth-console-table",
@@ -1394,7 +1394,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/mammoth-console-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CMammoth%20Console%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "morphogenesis-side-table",
@@ -1411,7 +1411,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/morphogenesis-side-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CMorphogenesis%20Side%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "mystique-console-table",
@@ -1428,7 +1428,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/mystique-console-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CMystique%20Console%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "sculpted-symmetry",
@@ -1445,7 +1445,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/sculpted-symmetry.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSculpted%20Symmetry%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "sediment-table",
@@ -1462,7 +1462,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/sediment-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSediment%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "thing-table",
@@ -1479,7 +1479,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/thing-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CThing%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "voided-side-table",
@@ -1496,7 +1496,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/voided-side-table.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVoided%20Side%20Table%E2%80%9D%20%28Sculptural%20Tables%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "acacia-lumina",
@@ -1513,7 +1513,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/acacia-lumina.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CAcacia%20Lumina%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "bloom-sconce",
@@ -1523,14 +1523,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 13600,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/bloom-sconce.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBloom%20Sconce%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "calm-in-the-storm",
@@ -1547,7 +1547,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/calm-in-the-storm.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCalm%20in%20the%20Storm%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "divine-spirits",
@@ -1564,7 +1564,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/divine-spirits.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CDivine%20Spirits%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "extended-arm",
@@ -1581,7 +1581,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/reaching-out.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CExtended%20Arm%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "lumen-core",
@@ -1598,7 +1598,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/lumen-core.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CLumen%20Core%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "lumen-totem",
@@ -1615,7 +1615,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/lumen-totem.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CLumen%20Totem%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "mystical-mountain-lamp-series",
@@ -1625,14 +1625,14 @@
       "material": "Raw silk",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 12800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/mystical-mountain-series.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CMystical%20Mountain%20Lamp%20Series%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "navarasa",
@@ -1649,7 +1649,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/navarasa.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CNavarasa%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "navarasa-ii",
@@ -1666,7 +1666,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/navrasa-ii.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CNavarasa%20II%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "padmasan",
@@ -1676,14 +1676,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 68000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/padmasan.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CPadmasan%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "rooted-flame",
@@ -1700,7 +1700,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/rooted-flame.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CRooted%20Flame%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "sculptural-neem-void",
@@ -1717,7 +1717,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/sculptural-neem-void.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSculptural%20Neem%20Void%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "serpent-drift",
@@ -1734,7 +1734,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/serpent-drift.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSerpent%20Drift%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "wander-totem",
@@ -1751,7 +1751,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/wander-totem.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CWander%20Totem%E2%80%9D%20%28Light%20as%20Sculpture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "ace-mirror",
@@ -1768,7 +1768,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/ace-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CAce%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "biomorphic-stone-mirror",
@@ -1785,7 +1785,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/biomorphic-stone-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBiomorphic%20Stone%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "branched-out-mirror",
@@ -1802,7 +1802,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/branched-out-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBranched%20Out%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "elemental-balance",
@@ -1819,7 +1819,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/elemental-balance.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CElemental%20Balance%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "karaiyan-mirror",
@@ -1836,7 +1836,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/karaiyan-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CKa%E1%B9%9Faiy%C4%81%E1%B9%89%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "nature-select-mirror",
@@ -1853,7 +1853,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/nature-select-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CNature%20Select%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "oeba-mirror",
@@ -1870,7 +1870,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/oeba-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9COeba%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "reflecting-drift",
@@ -1887,7 +1887,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/reflecting-drift.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CReflecting%20Drift%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "rippled-portal",
@@ -1904,7 +1904,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/rippled-portal-2.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CRippled%20Portal%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "the-tache-mirror-series",
@@ -1914,14 +1914,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 43000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/the-tache-mirror-series.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CThe%20Tache%20Mirror%20Series%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "wonder-mirror",
@@ -1931,14 +1931,14 @@
       "material": "Carved Kalimaruthu wood, 8mm mirror",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 160000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/wonder-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CWonder%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "wood-oracle-mirror",
@@ -1955,7 +1955,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/wood-oracle-mirror.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CWood%2C%20Oracle%2C%20Mirror%E2%80%9D%20%28Reflective%20Objects%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "lock-wood-and-rock",
@@ -1965,14 +1965,14 @@
       "material": "Coquina Rock, Charred Kalimaruthu wood",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 63000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/lock-wood-and-rock.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CLock%2C%20Wood%20and%20Rock%E2%80%9D%20%28Sculptural%20Furniture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "noir-root",
@@ -1982,14 +1982,14 @@
       "material": null,
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 67000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/noir-root.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CNoir%20Root%E2%80%9D%20%28Sculptural%20Furniture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "sarpa-sutra",
@@ -2006,7 +2006,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/sarpa-sutra.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CSarpa%20Sutra%E2%80%9D%20%28Sculptural%20Furniture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "thing-2",
@@ -2023,7 +2023,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/thing-2.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CThing%202%E2%80%9D%20%28Sculptural%20Furniture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "vortex-loop",
@@ -2033,14 +2033,14 @@
       "material": "Black Granite",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 26000,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/vortex-loop.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVortex%20Loop%E2%80%9D%20%28Sculptural%20Furniture%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "elongated-stone-basin",
@@ -2057,7 +2057,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/elongated-stone-basin.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CElongated%20Stone%20Basin%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "g-defying-basin",
@@ -2074,7 +2074,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/g-defying-basin.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CG-Defying%20Basin%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     },
     {
       "id": "greek-basin",
@@ -2091,7 +2091,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/greek-basin.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CGreek%20Basin%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "livewood-pedestal-basin",
@@ -2108,7 +2108,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/livewood-pedestal-basin.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CLivewood%20Pedestal%20Basin%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "log-rock-basin",
@@ -2125,7 +2125,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/log-rock-basin.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CLog%20Rock%20Basin%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "lotus-petal-water-bowl",
@@ -2142,7 +2142,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/lotus-petal-water-bowl.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CLotus%20Petal%20Water%20Bowl%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "pedestal-basin-in-sculpted-granite",
@@ -2159,7 +2159,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/pedestal-basin-in-sculpted-granite.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CPedestal%20Basin%20in%20Sculpted%20Granite%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "petrified-wood-basins",
@@ -2176,7 +2176,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/petrified-wood-basins.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CPetrified%20Wood%20Basins%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "stone-wash-basins",
@@ -2193,7 +2193,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/stone-wash-basins.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CStone%20Wash%20Basins%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "stone-water-bodies",
@@ -2210,7 +2210,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/stone-water-bodies.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CStone%20Water%20Bodies%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "wooden-wonder-basin",
@@ -2227,7 +2227,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/wooden-wonder-basin.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CWooden%20Wonder%20Basin%E2%80%9D%20%28Functional%20Stone%20Forms%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "ENQUIRY_ONLY"
     },
     {
       "id": "biomorphic-vase-series",
@@ -2237,14 +2237,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 13702,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/biomorphic-vases.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CBiomorphic%20Vase%20Series%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "collectible-tray-series",
@@ -2254,14 +2254,14 @@
       "material": "Coquina rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/tray-series.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CCollectible%20Tray%20Series%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "honeycomb-candleholder-series",
@@ -2271,14 +2271,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 4800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/heroes/honeycomb-series.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CHoneycomb%20Candleholder%20Series%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-01",
@@ -2288,14 +2288,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 8099,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-01/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2001%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-02",
@@ -2305,14 +2305,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 9399,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-02/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2002%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-03",
@@ -2322,14 +2322,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7399,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-03/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2003%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-04",
@@ -2339,14 +2339,14 @@
       "material": "Raw Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5499,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-04/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2004%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-05",
@@ -2356,14 +2356,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 8899,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-05/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2005%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-06",
@@ -2373,14 +2373,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7599,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-06/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2006%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-07",
@@ -2390,14 +2390,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6899,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-07/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2007%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-08",
@@ -2407,14 +2407,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6899,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-08/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2008%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-09",
@@ -2424,14 +2424,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7399,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-09/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2009%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-10",
@@ -2441,14 +2441,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6699,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-10/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2010%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-11",
@@ -2458,14 +2458,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6899,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-11/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2011%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-12",
@@ -2475,14 +2475,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 8199,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-12/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2012%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-13",
@@ -2492,14 +2492,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 9399,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-13/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2013%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-14",
@@ -2509,14 +2509,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 10899,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-14/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2014%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-15",
@@ -2526,14 +2526,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-15/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2015%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-16",
@@ -2543,14 +2543,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-16/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2016%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-17",
@@ -2560,14 +2560,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-17/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2017%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-18",
@@ -2577,14 +2577,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 8300,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-18/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2018%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-19",
@@ -2594,14 +2594,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 8900,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-19/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2019%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-20",
@@ -2611,14 +2611,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-20/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2020%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-21",
@@ -2628,14 +2628,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-21/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2021%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-22",
@@ -2645,14 +2645,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-22/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2022%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-23",
@@ -2662,14 +2662,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6400,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-23/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2023%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-24",
@@ -2679,14 +2679,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6400,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-24/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2024%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-25",
@@ -2696,14 +2696,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-25/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2025%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-26",
@@ -2713,14 +2713,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6400,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-26/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2026%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-27",
@@ -2730,14 +2730,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-27/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2027%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-28",
@@ -2747,14 +2747,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-28/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2028%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-29",
@@ -2764,14 +2764,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-29/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2029%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-30",
@@ -2781,14 +2781,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-30/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2030%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-31",
@@ -2798,14 +2798,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-31/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2031%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-32",
@@ -2815,14 +2815,14 @@
       "material": "Limestone",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6500,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-32/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2032%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-33",
@@ -2832,14 +2832,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-33/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2033%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-34",
@@ -2849,14 +2849,14 @@
       "material": "Limestone",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-34/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2034%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-35",
@@ -2866,14 +2866,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-35/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2035%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-36",
@@ -2883,14 +2883,14 @@
       "material": "Limestone",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6600,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-36/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2036%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-37",
@@ -2900,14 +2900,14 @@
       "material": "Limestone",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-37/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2037%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-38",
@@ -2917,14 +2917,14 @@
       "material": "Limestone",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-38/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2038%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-39",
@@ -2934,14 +2934,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6400,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-39/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2039%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-40",
@@ -2951,14 +2951,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 7200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-40/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2040%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-41",
@@ -2968,14 +2968,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5400,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-41/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2041%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-42",
@@ -2985,14 +2985,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6800,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-42/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2042%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-43",
@@ -3002,14 +3002,14 @@
       "material": "Limestone",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6300,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-43/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2043%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-44",
@@ -3019,14 +3019,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5900,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-44/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2044%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-45",
@@ -3036,14 +3036,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5600,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-45/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2045%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-46",
@@ -3053,14 +3053,14 @@
       "material": "Glauconite Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 6200,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-46/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2046%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-47",
@@ -3070,14 +3070,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5600,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-47/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2047%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-48",
@@ -3087,14 +3087,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5600,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-48/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2048%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "vessel-of-nature-no-49",
@@ -3104,14 +3104,14 @@
       "material": "Coquina Rock",
       "dimensions": null,
       "description": null,
-      "price": null,
-      "currency": null,
-      "availability": null,
-      "condition": null,
+      "price": 5600,
+      "currency": "INR",
+      "availability": "in stock",
+      "condition": "new",
       "hero_image": "https://weboflife.in/artworks/vessels-of-nature/vessel-of-nature-no-49/hero.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CVessel%20of%20Nature%20No.%2049%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "META_FEED_READY"
     },
     {
       "id": "wood-bender-series",
@@ -3128,7 +3128,7 @@
       "hero_image": "https://weboflife.in/artworks/heroes/wood-bender-series.webp",
       "additional_images": [],
       "whatsapp_url": "https://wa.me/919494604666?text=Hi%20Web%20of%20Life%21%20I%27m%20interested%20in%20%E2%80%9CWood%20Bender%20Series%E2%80%9D%20%28Collectible%20Objects%20%26%20Vessels%29.%20Is%20it%20available%2C%20and%20what%27s%20the%20price%3F",
-      "commerce_status": "MISSING_COMMERCE_DATA"
+      "commerce_status": "SOLD_ARCHIVE"
     }
   ]
 }
