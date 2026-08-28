@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-08-25",
+  "note": "Raw research findings for visual price-matching against data/products.json. Unlike title-matching, a visual match cannot be computed from text — each candidate's `matched_product_id` / `visual_match_confidence` / `visual_match_notes` fields must be set by whoever actually compared the candidate's image against our hero_image (a person, or an AI with real image-reading access to both). scripts/lib/match-external-prices.js only joins already-decided matches to products and applies the price/provenance rules — it does not decide confidence itself. Candidate shape: { title, image_url, current_price, currency, availability_text, material_text, dimensions_text, url, matched_product_id, visual_match_confidence, visual_match_notes }. matched_product_id is a data/products.json `id`, or null if unmatched. visual_match_confidence is one of VISUAL_EXACT | VISUAL_HIGH_CONFIDENCE | VISUAL_POSSIBLE, or null.",
+  "sources": {
+    "aase.life": {
+      "reachable": false,
+      "reason": "Confirmed dead via SIX independent legitimate methods: (1) live crawl — DNS resolves (13.206.183.36, AWS Mumbai) but TCP connection times out on 443/80, no server listening; (2) Wayback Machine CDX API, matchType=domain (all subpaths) — zero captures ever, verified independently twice; (3) general search site:aase.life / exact-string \"aase.life\" — zero results ever; (4) WordPress/WooCommerce-specific search (inurl:wp-content, inurl:wp-json, filetype:jpg/png/webp, /product/, /shop/, /product-category/ path-scoped queries) — zero results tied to the actual domain; (5) image search and brand-presence search across Instagram/Pinterest/1stDibs/Chairish/Pamono/Etsy — zero genuine hits (two near-miss false positives ruled out: \"Magnus Aase\" on 1stDibs is an unrelated 1940s silver-furniture maker; \"Aase\" as a Norwegian given/surname returns unrelated Pinterest/Wikipedia profiles); (6) local machine check — this Mac's Chrome history shows exactly one visit to https://aase.life/ on 2026-07-17, with a captured favicon at /wp-content/plugins/minimal-coming-soon-maintenance-mode/framework/public/img/mm-favicon.png, confirming the WordPress/WooCommerce identification but also suggesting the page shown at that time was a \"coming soon\" placeholder, not a browsable catalog — no product content, downloads, or bookmarks found locally. One avenue was attempted but blocked, not ruled out: archive.today (archive.ph) returned an automated CAPTCHA/bot-check wall on direct fetch — not bypassed, per instructions not to circumvent protected endpoints; would need a human with a normal browser to check archive.ph/https://aase.life manually.",
+      "products": []
+    },
+    "loamandroot.com": {
+      "reachable": false,
+      "reason": "Hosted on Vercel with the entire deployment disabled at the platform level (confirmed by direct-fetching an indexed PDF asset, which returned HTTP 402 with body \"Payment required / DEPLOYMENT_DISABLED\" — this blocks every asset on the domain, not just the app/storefront). Wayback Machine (CDX API, domain-wide including subdomains) holds exactly one record ever: a bare 301 redirect capture from 2025-04-17 with no actual page content. Search index holds only 2 URLs total for this domain+subdomain: a login page and the now-confirmed-dead PDF.",
+      "products": []
+    },
+    "shop.loamandroot.com": {
+      "reachable": false,
+      "reason": "Same Vercel-wide deployment suspension as loamandroot.com (subdomains share the outage). Search index shows an indexed /login?redirect=/ URL, suggesting the storefront was also authentication-gated on top of the platform-level suspension.",
+      "products": []
+    }
+  }
+}
