@@ -18,13 +18,19 @@ export const OWNER_INPUT_CSV_PATH = 'reports/commerce-owner-input.csv';
 export const META_TEST_CATALOG_ID = '4026302901007451';
 
 // Meta Pixel ID for shop.weboflife.in, from Meta Events Manager > Connect
-// Data Sources > Web. This is the "Web of Life Commerce" dataset ID — Meta's
-// unified Dataset model surfaced this same ID (also the App ID) as the Web
-// pixel's fbq('init', ...) value when the owner ran Events Manager's
-// Connect a new data source > Web > existing dataset "Web of Life Commerce"
-// > Set up Meta pixel flow directly. Confirmed by the owner running that
-// flow themselves and matched against the generated base code before use.
-export const META_PIXEL_ID = '2795537464153509';
+// Data Sources > Web > Create a new dataset. Supersedes 2795537464153509
+// (kept only as a historical reference below) — that ID resolved as an App
+// node in Graph API schema checks (basic id/name/link fields returned 200;
+// AdsPixel-only fields returned "nonexisting field", a schema mismatch, not
+// a permission error), which is why Ads Manager forced Conversion location
+// = App for catalogue sales instead of offering Website. This ID
+// (2962661034068063) is a genuinely separate, newly-created Web dataset —
+// confirmed distinct by a matching schema check returning a blanket
+// "Missing Permission" on every field (the expected AdsPixel-type failure
+// mode under our permission ceiling), not the App's "nonexisting field"
+// pattern. The old App dataset (2795537464153509) is left untouched and
+// still connected to the catalogue — not disconnected as part of this change.
+export const META_PIXEL_ID = '2962661034068063';
 
 export const COMMERCE_STATUS = {
   META_FEED_READY: 'META_FEED_READY',
