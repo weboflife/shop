@@ -17,6 +17,12 @@ export const OWNER_INPUT_CSV_PATH = 'reports/commerce-owner-input.csv';
 // invocation can never accidentally target a real catalog.
 export const META_TEST_CATALOG_ID = '4026302901007451';
 
+// Meta Pixel ID for shop.weboflife.in, from Meta Events Manager > Connect
+// Data Sources > Web. Left null until the owner creates the pixel — no
+// placeholder/fake ID is ever set here. See scripts/lib/pixel.js: as long as
+// this is null, no pixel code is emitted anywhere in the generated output.
+export const META_PIXEL_ID = null;
+
 export const COMMERCE_STATUS = {
   META_FEED_READY: 'META_FEED_READY',
   ENQUIRY_ONLY: 'ENQUIRY_ONLY',

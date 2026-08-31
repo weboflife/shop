@@ -19,9 +19,12 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { escapeHtml, buildSearchIndex, readJson } from './lib/util.js';
 import { PRODUCTS_JSON_PATH, INDEX_HTML_PATH, COMMERCE_STATUS } from './lib/config.js';
 import { validateIndexHtml } from './validate.js';
+import { pixelBaseScript, CONTACT_EVENT_ONCLICK } from './lib/pixel.js';
 
 const GRID_START_MARKER = '<main class="grid" id="grid">';
 const GRID_END_MARKER = '<p class="empty" id="empty" style="display:none">No pieces match that search.</p>\n  </main>';
+const PIXEL_START_MARKER = '<!-- meta-pixel:start -->';
+const PIXEL_END_MARKER = '<!-- meta-pixel:end -->';
 
 function formatPriceINR(price) {
   return `₹${Number(price).toLocaleString('en-IN')}`;
@@ -50,7 +53,7 @@ function renderCard(p) {
   const { priceHtml, ctaLabel } = priceAndCta(p);
 
   return `      <article class="card" data-cat="${cat}" data-title="${searchIndex}">
-        <a class="card-media" href="${wa}" target="_blank" rel="noopener">
+        <a class="card-media" href="${wa}" target="_blank" rel="noopener" onclick="${CONTACT_EVENT_ONCLICK}">
           <img loading="lazy" src="${p.hero_image}" alt="${title}">
           <span class="save" aria-label="Save"><i class="ti ti-bookmark"></i></span>
         </a>
@@ -60,24 +63,36 @@ function renderCard(p) {
           <p class="mat">${matText}</p>
           <div class="card-foot">
             ${priceHtml}
-            <a class="buy" href="${wa}" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> ${ctaLabel}</a>
+            <a class="buy" href="${wa}" target="_blank" rel="noopener" onclick="${CONTACT_EVENT_ONCLICK}"><i class="ti ti-brand-whatsapp"></i> ${ctaLabel}</a>
           </div>
         </div>
       </article>`;
 }
 
+function injectPixelBlock(html) {
+  const startIdx = html.indexOf(PIXEL_START_MARKER);
+  const endIdx = html.indexOf(PIXEL_END_MARKER);
+  if (startIdx === -1 || endIdx === -1) {
+    throw new Error('Could not locate meta-pixel markers in index.html <head> — aborting to avoid corrupting the file.');
+  }
+  const before = html.slice(0, startIdx + PIXEL_START_MARKER.length);
+  const after = html.slice(endIdx);
+  const body = pixelBaseScript();
+  return `${before}${body ? '\n' + body + '\n' : '\n'}${after}`;
+}
+
 function main() {
   const { products } = readJson(PRODUCTS_JSON_PATH);
-  const html = readFileSync(INDEX_HTML_PATH, 'utf8');
+  const htmlWithPixel = injectPixelBlock(readFileSync(INDEX_HTML_PATH, 'utf8'));
 
-  const startIdx = html.indexOf(GRID_START_MARKER);
-  const endIdx = html.indexOf(GRID_END_MARKER);
+  const startIdx = htmlWithPixel.indexOf(GRID_START_MARKER);
+  const endIdx = htmlWithPixel.indexOf(GRID_END_MARKER);
   if (startIdx === -1 || endIdx === -1) {
     throw new Error('Could not locate product grid markers in index.html — aborting to avoid corrupting the file.');
   }
 
-  const before = html.slice(0, startIdx + GRID_START_MARKER.length);
-  const after = html.slice(endIdx);
+  const before = htmlWithPixel.slice(0, startIdx + GRID_START_MARKER.length);
+  const after = htmlWithPixel.slice(endIdx);
 
   const cardsHtml = products.map(renderCard).join('\n');
   const newHtml = `${before}\n${cardsHtml}\n    ${after}`;

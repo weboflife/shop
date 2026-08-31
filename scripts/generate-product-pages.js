@@ -18,6 +18,7 @@
 import { existsSync, mkdirSync, writeFileSync, readdirSync, rmSync } from 'node:fs';
 import { escapeHtml, readJson, effectiveDescription } from './lib/util.js';
 import { PRODUCTS_JSON_PATH, PRODUCTS_DIR, SITE_BASE_URL, BRAND, COMMERCE_STATUS } from './lib/config.js';
+import { pixelBaseScript, viewContentScript, CONTACT_EVENT_ONCLICK } from './lib/pixel.js';
 
 function formatPriceINR(price) {
   return `₹${Number(price).toLocaleString('en-IN')}`;
@@ -89,6 +90,8 @@ function renderProductPage(p) {
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.1.0/dist/tabler-icons.min.css">
 <script type="application/ld+json">${JSON.stringify(ldJson)}</script>
+${pixelBaseScript()}
+${p.commerce_status === COMMERCE_STATUS.META_FEED_READY ? viewContentScript(p) : ''}
 <style>
   :root{ --bg:#0e0e0c; --panel:#161613; --card:#17170f; --line:#2a2a24; --ink:#f3f1ea; --mut:#a3a196; --accent:#c9a36a; }
   *{box-sizing:border-box}
@@ -127,7 +130,7 @@ function renderProductPage(p) {
   <dl class="facts">
 ${factRows.map(([k, v]) => `    <div class="fact"><dt>${k}</dt><dd>${v}</dd></div>`).join('\n')}
   </dl>
-  <a class="cta" href="${p.whatsapp_url}" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> ${ctaLabel}</a>
+  <a class="cta" href="${p.whatsapp_url}" target="_blank" rel="noopener" onclick="${CONTACT_EVENT_ONCLICK}"><i class="ti ti-brand-whatsapp"></i> ${ctaLabel}</a>
   ${noteHtml}
 </div></main>
 </body>
