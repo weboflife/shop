@@ -18,10 +18,13 @@ export const OWNER_INPUT_CSV_PATH = 'reports/commerce-owner-input.csv';
 export const META_TEST_CATALOG_ID = '4026302901007451';
 
 // Meta Pixel ID for shop.weboflife.in, from Meta Events Manager > Connect
-// Data Sources > Web. Left null until the owner creates the pixel — no
-// placeholder/fake ID is ever set here. See scripts/lib/pixel.js: as long as
-// this is null, no pixel code is emitted anywhere in the generated output.
-export const META_PIXEL_ID = null;
+// Data Sources > Web. This is the "Web of Life Commerce" dataset ID — Meta's
+// unified Dataset model surfaced this same ID (also the App ID) as the Web
+// pixel's fbq('init', ...) value when the owner ran Events Manager's
+// Connect a new data source > Web > existing dataset "Web of Life Commerce"
+// > Set up Meta pixel flow directly. Confirmed by the owner running that
+// flow themselves and matched against the generated base code before use.
+export const META_PIXEL_ID = '2795537464153509';
 
 export const COMMERCE_STATUS = {
   META_FEED_READY: 'META_FEED_READY',
