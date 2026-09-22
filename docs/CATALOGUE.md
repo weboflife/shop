@@ -121,8 +121,9 @@ Setting a price does **not** by itself make a product sellable on Meta — see
 "condition": "new"
 ```
 
-Allowed `availability` values: `in stock`, `out of stock`, `preorder`,
-`available for order`.
+Allowed `availability` values: `in stock`, `out of stock`, `available for order`,
+`discontinued` (matches Meta's actual Product Catalog API enum, confirmed
+against the `items_batch` API docs).
 Allowed `condition` values: `new`, `refurbished`, `used`.
 
 Both are stored as `null` until you explicitly set them — the build never

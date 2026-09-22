@@ -39,7 +39,10 @@ export const COMMERCE_STATUS = {
   MISSING_COMMERCE_DATA: 'MISSING_COMMERCE_DATA',
 };
 
-export const ALLOWED_AVAILABILITY = ['in stock', 'out of stock', 'preorder', 'available for order'];
+// Matches the Meta Graph API's actual PRODUCT_ITEM availability enum
+// (confirmed against /{catalog_id}/items_batch docs) — NOT "preorder",
+// which is not a value Meta's Product Catalog API accepts.
+export const ALLOWED_AVAILABILITY = ['in stock', 'out of stock', 'available for order', 'discontinued'];
 export const ALLOWED_CONDITION = ['new', 'refurbished', 'used'];
 
 // Fields Meta requires on any row actually written into meta-catalog.csv.
