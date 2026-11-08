@@ -12,10 +12,11 @@ function run(label, file, args = []) {
   }
 }
 
-run('1/5 Validate source (data/products.json)', 'scripts/validate.js', ['--source']);
-run('2/5 Generate site (index.html)', 'scripts/generate-site.js');
-run('3/5 Generate product pages (products/<slug>/)', 'scripts/generate-product-pages.js');
-run('4/5 Generate Meta feed + audit report', 'scripts/generate-meta-feed.js');
-run('5/5 Validate output', 'scripts/validate.js', ['--output']);
+run('1/6 Validate source (data/products.json)', 'scripts/validate.js', ['--source']);
+run('2/6 Generate site (index.html)', 'scripts/generate-site.js');
+run('3/6 Generate product pages (products/<slug>/)', 'scripts/generate-product-pages.js');
+run('4/6 Generate robots.txt + sitemap.xml', 'scripts/generate-seo.js');
+run('5/6 Generate Meta feed + audit report', 'scripts/generate-meta-feed.js');
+run('6/6 Validate output', 'scripts/validate.js', ['--output']);
 
 console.log('\nBuild complete.');
