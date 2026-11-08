@@ -8,6 +8,7 @@
     "validate:source": "node scripts/validate.js --source",
     "generate:site": "node scripts/generate-site.js",
     "generate:pages": "node scripts/generate-product-pages.js",
+    "generate:seo": "node scripts/generate-seo.js",
     "generate:feed": "node scripts/generate-meta-feed.js",
     "validate:output": "node scripts/validate.js --output",
     "build": "node scripts/build.js",

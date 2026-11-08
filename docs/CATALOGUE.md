@@ -1,7 +1,7 @@
 # Catalogue → Meta Commerce feed — maintainer guide
 
 `data/products.json` is the **source of truth** for the whole catalogue. `index.html`
-(the live shop), the `products/<slug>/` pages, `meta/meta-catalog.csv`, and
+(the live shop), the `products/<slug>/` pages, `sitemap.xml`, `robots.txt`, `meta/meta-catalog.csv`, and
 `reports/meta-commerce-audit.csv` are all **generated files** — never edit them
 by hand, edit `data/products.json` and regenerate.
 
@@ -23,6 +23,7 @@ Individual steps (also available as `npm run <name>`):
 | `node scripts/validate.js --source --network` | Also HEAD-check every hero image URL |
 | `node scripts/generate-site.js` | Regenerate the product grid in `index.html` |
 | `node scripts/generate-product-pages.js` | Regenerate `products/<slug>/index.html` |
+| `node scripts/generate-seo.js` | Regenerate `sitemap.xml` and `robots.txt` from the catalogue |
 | `node scripts/generate-meta-feed.js` | Regenerate `meta/meta-catalog.csv` + `reports/meta-commerce-audit.csv` |
 | `node scripts/validate.js --output` | Validate the generated `index.html` + product pages against the source |
 
@@ -202,7 +203,9 @@ Checks include: exact product count, duplicate ids/slugs/titles, malformed
 URLs, missing/unreachable hero images, invalid price/currency/availability/
 condition formats, products marked `META_FEED_READY` without all required
 fields, product-count mismatches between source and generated output, and
-WhatsApp links being lost or changed during generation.
+WhatsApp links being lost or changed during generation. Output validation also
+checks all 184 internal product links, unique canonicals, parseable structured
+data, sitemap/page parity, image sitemap coverage, and robots.txt discovery.
 
 ## Syncing to Meta
 

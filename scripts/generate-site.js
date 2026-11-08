@@ -17,7 +17,7 @@
 // WhatsApp-enquiry behaviour is unmodified as a mechanism.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { escapeHtml, buildSearchIndex, readJson } from './lib/util.js';
-import { PRODUCTS_JSON_PATH, INDEX_HTML_PATH, COMMERCE_STATUS } from './lib/config.js';
+import { PRODUCTS_JSON_PATH, INDEX_HTML_PATH, SITE_BASE_URL, BRAND, COMMERCE_STATUS } from './lib/config.js';
 import { validateIndexHtml } from './validate.js';
 import { pixelBaseScript, CONTACT_EVENT_ONCLICK } from './lib/pixel.js';
 
@@ -25,6 +25,8 @@ const GRID_START_MARKER = '<main class="grid" id="grid">';
 const GRID_END_MARKER = '<p class="empty" id="empty" style="display:none">No pieces match that search.</p>\n  </main>';
 const PIXEL_START_MARKER = '<!-- meta-pixel:start -->';
 const PIXEL_END_MARKER = '<!-- meta-pixel:end -->';
+const SEO_SCHEMA_START_MARKER = '<!-- seo-schema:start -->';
+const SEO_SCHEMA_END_MARKER = '<!-- seo-schema:end -->';
 
 function formatPriceINR(price) {
   return `₹${Number(price).toLocaleString('en-IN')}`;
@@ -50,16 +52,17 @@ function renderCard(p) {
   const searchIndex = escapeHtml(buildSearchIndex(p.title, p.material, p.category));
   const eyebrow = escapeHtml(p.category.toUpperCase());
   const wa = p.whatsapp_url; // already a valid, pre-escaped URL from source; used verbatim
+  const productPath = `/products/${encodeURIComponent(p.slug)}/`;
   const { priceHtml, ctaLabel } = priceAndCta(p);
 
   return `      <article class="card" data-cat="${cat}" data-title="${searchIndex}">
-        <a class="card-media" href="${wa}" target="_blank" rel="noopener" onclick="${CONTACT_EVENT_ONCLICK}">
+        <a class="card-media" href="${productPath}" aria-label="View ${title}">
           <img loading="lazy" src="${p.hero_image}" alt="${title}">
           <span class="save" aria-label="Save"><i class="ti ti-bookmark"></i></span>
         </a>
         <div class="card-body">
           <span class="eyebrow">${eyebrow}</span>
-          <h3>${title}</h3>
+          <a class="card-title" href="${productPath}"><h3>${title}</h3></a>
           <p class="mat">${matText}</p>
           <div class="card-foot">
             ${priceHtml}
@@ -67,6 +70,36 @@ function renderCard(p) {
           </div>
         </div>
       </article>`;
+}
+
+function injectCollectionSchema(html, products) {
+  const startIdx = html.indexOf(SEO_SCHEMA_START_MARKER);
+  const endIdx = html.indexOf(SEO_SCHEMA_END_MARKER);
+  if (startIdx === -1 || endIdx === -1) {
+    throw new Error('Could not locate seo-schema markers in index.html <head> — aborting to avoid corrupting the file.');
+  }
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${SITE_BASE_URL}/#collection`,
+    url: `${SITE_BASE_URL}/`,
+    name: `${BRAND} — Shop the Collection`,
+    description: "Browse Web of Life's catalogue of sculptural furniture, sculpture, lighting, mirrors, stone forms and collectible objects.",
+    publisher: { '@type': 'Organization', name: BRAND, url: 'https://weboflife.in/' },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: products.length,
+      itemListElement: products.map((p, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: p.title,
+        url: `${SITE_BASE_URL}/products/${p.slug}/`,
+      })),
+    },
+  };
+  const script = `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>`;
+  return `${html.slice(0, startIdx + SEO_SCHEMA_START_MARKER.length)}\n${script}\n${html.slice(endIdx)}`;
 }
 
 function injectPixelBlock(html) {
@@ -84,15 +117,16 @@ function injectPixelBlock(html) {
 function main() {
   const { products } = readJson(PRODUCTS_JSON_PATH);
   const htmlWithPixel = injectPixelBlock(readFileSync(INDEX_HTML_PATH, 'utf8'));
+  const htmlWithSeo = injectCollectionSchema(htmlWithPixel, products);
 
-  const startIdx = htmlWithPixel.indexOf(GRID_START_MARKER);
-  const endIdx = htmlWithPixel.indexOf(GRID_END_MARKER);
+  const startIdx = htmlWithSeo.indexOf(GRID_START_MARKER);
+  const endIdx = htmlWithSeo.indexOf(GRID_END_MARKER);
   if (startIdx === -1 || endIdx === -1) {
     throw new Error('Could not locate product grid markers in index.html — aborting to avoid corrupting the file.');
   }
 
-  const before = htmlWithPixel.slice(0, startIdx + GRID_START_MARKER.length);
-  const after = htmlWithPixel.slice(endIdx);
+  const before = htmlWithSeo.slice(0, startIdx + GRID_START_MARKER.length);
+  const after = htmlWithSeo.slice(endIdx);
 
   const cardsHtml = products.map(renderCard).join('\n');
   const newHtml = `${before}\n${cardsHtml}\n    ${after}`;
@@ -112,6 +146,9 @@ function main() {
     }
     if (!tmpCheck.includes(p.whatsapp_url)) {
       throw new Error(`Pre-write check failed: WhatsApp URL for "${p.title}" missing from generated output. Not writing.`);
+    }
+    if (!tmpCheck.includes(`/products/${encodeURIComponent(p.slug)}/`)) {
+      throw new Error(`Pre-write check failed: product detail link for "${p.title}" missing from generated output. Not writing.`);
     }
   }
   const categories = new Set(products.map((p) => p.category));

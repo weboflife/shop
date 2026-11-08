@@ -24,6 +24,19 @@ function formatPriceINR(price) {
   return `₹${Number(price).toLocaleString('en-IN')}`;
 }
 
+const SCHEMA_AVAILABILITY = {
+  'in stock': 'https://schema.org/InStock',
+  'out of stock': 'https://schema.org/OutOfStock',
+  preorder: 'https://schema.org/PreOrder',
+  'available for order': 'https://schema.org/MadeToOrder',
+};
+
+const SCHEMA_CONDITION = {
+  new: 'https://schema.org/NewCondition',
+  refurbished: 'https://schema.org/RefurbishedCondition',
+  used: 'https://schema.org/UsedCondition',
+};
+
 function renderProductPage(p) {
   const title = escapeHtml(p.title);
   const category = escapeHtml(p.category);
@@ -51,26 +64,49 @@ function renderProductPage(p) {
     noteHtml = '<p class="note">Availability and price on request.</p>';
   }
 
-  const ldJson = {
-    '@context': 'https://schema.org',
+  const productId = `${canonical}#product`;
+  const productNode = {
     '@type': 'Product',
+    '@id': productId,
+    url: canonical,
+    mainEntityOfPage: canonical,
     name: p.title,
-    image: [p.hero_image, ...p.additional_images],
+    sku: p.id,
+    productID: p.id,
+    image: [p.hero_image, ...(p.additional_images || [])],
     description,
     brand: { '@type': 'Brand', name: BRAND },
     category: p.category,
   };
-  if (p.material) ldJson.material = p.material;
+  if (p.material) productNode.material = p.material;
+  if (p.condition) productNode.itemCondition = SCHEMA_CONDITION[p.condition];
   // Offers omitted entirely when price is unknown — no fabricated offer.
-  if (p.price !== null && p.price !== undefined && p.currency && p.availability) {
-    ldJson.offers = {
+  if (p.commerce_status === COMMERCE_STATUS.META_FEED_READY
+      && p.price !== null && p.price !== undefined && p.currency && p.availability) {
+    productNode.offers = {
       '@type': 'Offer',
       price: String(p.price),
       priceCurrency: p.currency,
-      availability: `https://schema.org/${p.availability === 'in stock' ? 'InStock' : 'OutOfStock'}`,
+      availability: SCHEMA_AVAILABILITY[p.availability],
       url: canonical,
+      seller: { '@type': 'Organization', name: BRAND, url: 'https://weboflife.in/' },
     };
   }
+  const ldJson = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      productNode,
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${canonical}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Collection', item: `${SITE_BASE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: p.title, item: canonical },
+        ],
+      },
+    ],
+  };
+  const ldJsonHtml = JSON.stringify(ldJson).replace(/</g, '\\u003c');
 
   return `<!doctype html>
 <html lang="en">
@@ -89,7 +125,7 @@ function renderProductPage(p) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.1.0/dist/tabler-icons.min.css">
-<script type="application/ld+json">${JSON.stringify(ldJson)}</script>
+<script type="application/ld+json">${ldJsonHtml}</script>
 ${pixelBaseScript()}
 ${p.commerce_status === COMMERCE_STATUS.META_FEED_READY ? viewContentScript(p) : ''}
 <style>
